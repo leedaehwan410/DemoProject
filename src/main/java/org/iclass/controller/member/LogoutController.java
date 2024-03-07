@@ -23,5 +23,4 @@ public class LogoutController implements Controller {
 		RequestDispatcher dispatcher = request.getRequestDispatcher("logout.jsp");
 		dispatcher.forward(request, response);
 	}
-
 }
