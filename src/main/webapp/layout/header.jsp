@@ -9,6 +9,9 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul id="user">
+							<!-- sessionScope.user 는 user 로만 써도 됩니다.
+					sessionScope는 명시적으로 user가 session 애트리뷰트라고 지정합니다.
+							 -->
 								<c:if test="${sessionScope.user == null }">		
 								<li><a href="${pageContext.request.contextPath }/join"><span>회원가입</span></a></li>
 								<li><a href="${pageContext.request.contextPath }/login">로그인</a></li>
