@@ -2,6 +2,10 @@ package org.iclass.controller;
 
 import java.util.HashMap;
 import java.util.Map;
+//
+//import org.iclass.controller.community.ListController;
+//import org.iclass.controller.community.ReadController;
+//import org.iclass.controller.community.WriteViewController;
 
 public class RequestControllerMapping {
 	private static final Map<RequestKeyValue,Controller> mapping = new HashMap<>();
