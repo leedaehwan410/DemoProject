@@ -48,12 +48,12 @@ DELETE FROM COMMUNITY c WHERE idx=21;
 -- 글 갯수
 SELECT count(*) FROM COMMUNITY ;
 
-
+-- 글수정
 UPDATE COMMUNITY 
 	SET 	
 			READCOUNT = READCOUNT +1
 			WHERE 
-			idx = 21;
+			idx = 423;
 
 
 -- 메인글의 댓글 갯수 조회 : 댓글 테이블 가서 메인글 번호 idx(댓글테이블 컬럼명 mref) 를 확인 후 실행
@@ -69,8 +69,8 @@ UPDATE  COMMUNITY
 		SET COMMENTCOUNT =
 			(SELECT count(*)
 			FROM COMMUNITYCOMMENTS  
-			WHERE mref=259)
-			WHERE  idx = 259;
+			WHERE mref=1)
+			WHERE  idx = 1;
 -- 메인 글의 댓글 목록 가져오기
 SELECT *
 		FROM COMMUNITYCOMMENTS c 
