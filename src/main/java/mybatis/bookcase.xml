@@ -6,6 +6,7 @@
 	 
  	<select id="saleList" resultType="org.iclass.vo.BookcaseBook" parameterType="java.util.Map">
  		SELECT *
+ 		
  		FROM
  			bookcase
  		<where>
