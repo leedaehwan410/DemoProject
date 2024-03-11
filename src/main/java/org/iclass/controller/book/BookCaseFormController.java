@@ -15,9 +15,12 @@ public class BookCaseFormController implements Controller {
 	public void handle(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		RequestDispatcher dispatcher = request.getRequestDispatcher("bookcaseForm.jsp");
 		dispatcher.forward(request, response);
+<<<<<<< HEAD
 		
 		
 		
+=======
+>>>>>>> refs/heads/main
 	}
 
 }
