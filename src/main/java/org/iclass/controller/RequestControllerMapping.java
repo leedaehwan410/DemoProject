@@ -6,11 +6,8 @@ import java.util.Map;
 import org.iclass.controller.book.BookCaseFormController;
 import org.iclass.controller.book.BookCaseListController;
 import org.iclass.controller.book.BookCaseSaveController;
-<<<<<<< HEAD
-=======
 import org.iclass.controller.community.CommentsController;
 import org.iclass.controller.community.DeleteController;
->>>>>>> refs/heads/main
 import org.iclass.controller.community.ListController;
 import org.iclass.controller.community.ReadController;
 import org.iclass.controller.community.UpdateController;
@@ -68,10 +65,7 @@ public class RequestControllerMapping {
 		mapping.put(new RequestKeyValue("/book/form","GET"), new BookCaseFormController());
 		mapping.put(new RequestKeyValue("/book/save","POST"), new BookCaseSaveController());
 		
-<<<<<<< HEAD
 
-=======
->>>>>>> refs/heads/main
 		//공지사항(검색기능)
 //		mapping.put(new RequestKeyValue("/notice/list", "GET"), new NoticeListController());
 //		mapping.put(new RequestKeyValue("/notice/read", "GET"), new NoticeReadController());
