@@ -3,6 +3,7 @@ package org.iclass.controller;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.iclass.controller.api.ApiPaymentSaveController;
 import org.iclass.controller.book.BookCaseFormController;
 import org.iclass.controller.book.BookCaseListController;
 import org.iclass.controller.book.BookCaseSaveController;
@@ -80,7 +81,7 @@ public class RequestControllerMapping {
 //		mapping.put(new RequestKeyValue("/api/auth/checkId", "POST"), new ApiCheckIdController() );
 //		mapping.put(new RequestKeyValue("/api/auth/join", "POST"), new ApiMemberJoinController() );
 //		mapping.put(new RequestKeyValue("/api/book", "GET"), new ApiGetBookOneController() );
-//		mapping.put(new RequestKeyValue("/api/pay", "POST"), new ApiPaymentSaveController() );
+		mapping.put(new RequestKeyValue("/api/pay", "POST"), new ApiPaymentSaveController() );
 
 	}
 	//url,method 필드를 저장하는 key 를 전달받아 HashMap에서 value(컨트롤러)를 리턴
